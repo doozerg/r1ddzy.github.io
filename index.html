@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <h2 class="title">Создание файла конфигурации коммутатора</h2>
+      <p class="text">Выбирите модель коммутатора:</p>
+      <select id="switch">
+        <option value="Edge-Core-28">Edge-Core ES3528M</option>
+        <option value="Edge-Core-52">Edge-Core ES3528-52M</option>
+        <option value="D-Link-3028">D-Link DES-3028</option>
+        <option value="Eltex-1124fb">Eltex MES1124FB</option>
+        <option value="Eltex-2424">Eltex MES2424</option>
+        <option value="Eltex-2324fb">Eltex MES2324FB</option>
+        <option value="Mikrotik-crs-326">Mikrotik CRS326</option>
+      </select>
+      <p class="text">Введите его сетевые настройки:</p>
+      <div class="block_config">
+        <div>
+          <input type="text" placeholder="IP адрес" value="" id="ip_switch" />
+        </div>
+        <div>
+          <input type="text" placeholder="Маска подсети" value="" id="mask" />
+        </div>
+        <div>
+          <input type="text" placeholder="Шлюз" value="" id="gateway" />
+        </div>
+        <div>
+          <input type="text" placeholder="VLAN управления" value="" id="vlan" />
+        </div>
+        <div>
+          <input type="text" placeholder="Пароль" value="" id="password" />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Имя коммутатора"
+            value=""
+            id="promt"
+          />
+        </div>
+      </div>
+      <div class="but_sections">
+        <button class="but_create_config" onclick="creatConfig()">
+          Cоздать
+        </button>
+        <button class="but_clear_config" onclick="reset()">
+          Очистить
+        </button>
+      </div>
+      <div class="out_config off_display" id="config"></div>
+    </div>
+    <script src="/script/script.js"></script>
+  </body>
+</html>

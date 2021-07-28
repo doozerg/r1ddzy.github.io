@@ -1,0 +1,60 @@
+body {
+  background: url("../img/fon.jpg") 0 0/100% auto no-repeat;
+  background-color: #292929;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.off_display {
+  display: none;
+}
+
+.block_config {
+  display: flex;
+  flex-direction: column;
+}
+.out_config {
+  background-color: #d5d5d5;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.but_sections {
+  display: flex;
+  flex-direction: row;
+}
+.but_create_config {
+  font-size: 20px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #7ce946;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.but_clear_config {
+  font-size: 20px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #e9967a;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: white;
+  background-color: #303030;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+}
