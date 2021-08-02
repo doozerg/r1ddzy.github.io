@@ -37,6 +37,10 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
+.but_create_config:hover {
+    background:#53ea93;
+}
+
 .but_clear_config {
   font-size: 20px;
   padding: 10px;
