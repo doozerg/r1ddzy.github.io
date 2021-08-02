@@ -38,7 +38,11 @@ body {
 }
 
 .but_create_config:hover {
-    background:#53ea93;
+    background:#33ff00;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .but_clear_config {
